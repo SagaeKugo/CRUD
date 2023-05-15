@@ -12,6 +12,9 @@
 		979160F52A0E2EB9001B71CA /* AddMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979160F42A0E2EB9001B71CA /* AddMemoView.swift */; };
 		979160F72A0E3041001B71CA /* EditMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979160F62A0E3041001B71CA /* EditMemoView.swift */; };
 		979161012A0E3B12001B71CA /* CRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979161002A0E3B12001B71CA /* CRUDTests.swift */; };
+		979161152A0FC675001B71CA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979161142A0FC675001B71CA /* Utils.swift */; };
+		9791611F2A0FCC91001B71CA /* CRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791611E2A0FCC91001B71CA /* CRUDUITests.swift */; };
+		979161212A0FCC91001B71CA /* CRUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979161202A0FCC91001B71CA /* CRUDUITestsLaunchTests.swift */; };
 		97DF8E102A0D2D82007B9C0B /* CRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF8E0F2A0D2D82007B9C0B /* CRUDApp.swift */; };
 		97DF8E122A0D2D82007B9C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DF8E112A0D2D82007B9C0B /* ContentView.swift */; };
 		97DF8E142A0D2D84007B9C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DF8E132A0D2D84007B9C0B /* Assets.xcassets */; };
@@ -28,6 +31,13 @@
 			remoteGlobalIDString = 97DF8E0B2A0D2D82007B9C0B;
 			remoteInfo = CRUD;
 		};
+		979161222A0FCC91001B71CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97DF8E042A0D2D82007B9C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97DF8E0B2A0D2D82007B9C0B;
+			remoteInfo = CRUD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,10 @@
 		979160F62A0E3041001B71CA /* EditMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoView.swift; sourceTree = "<group>"; };
 		979160FE2A0E3B12001B71CA /* CRUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979161002A0E3B12001B71CA /* CRUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDTests.swift; sourceTree = "<group>"; };
+		979161142A0FC675001B71CA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9791611C2A0FCC91001B71CA /* CRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9791611E2A0FCC91001B71CA /* CRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDUITests.swift; sourceTree = "<group>"; };
+		979161202A0FCC91001B71CA /* CRUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		97DF8E0C2A0D2D82007B9C0B /* CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DF8E0F2A0D2D82007B9C0B /* CRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDApp.swift; sourceTree = "<group>"; };
 		97DF8E112A0D2D82007B9C0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +62,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		979160FB2A0E3B12001B71CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979161192A0FCC91001B71CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,6 +93,15 @@
 			path = CRUDTests;
 			sourceTree = "<group>";
 		};
+		9791611D2A0FCC91001B71CA /* CRUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9791611E2A0FCC91001B71CA /* CRUDUITests.swift */,
+				979161202A0FCC91001B71CA /* CRUDUITestsLaunchTests.swift */,
+			);
+			path = CRUDUITests;
+			sourceTree = "<group>";
+		};
 		97DF8E032A0D2D82007B9C0B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +109,7 @@
 				979160F12A0DFDA9001B71CA /* Memo+CoreDataProperties.swift */,
 				97DF8E0E2A0D2D82007B9C0B /* CRUD */,
 				979160FF2A0E3B12001B71CA /* CRUDTests */,
+				9791611D2A0FCC91001B71CA /* CRUDUITests */,
 				97DF8E0D2A0D2D82007B9C0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +119,7 @@
 			children = (
 				97DF8E0C2A0D2D82007B9C0B /* CRUD.app */,
 				979160FE2A0E3B12001B71CA /* CRUDTests.xctest */,
+				9791611C2A0FCC91001B71CA /* CRUDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +133,7 @@
 				979160F42A0E2EB9001B71CA /* AddMemoView.swift */,
 				979160F62A0E3041001B71CA /* EditMemoView.swift */,
 				97DF8E182A0D2D84007B9C0B /* Persistence.swift */,
+				979161142A0FC675001B71CA /* Utils.swift */,
 				97DF8E1A2A0D2D84007B9C0B /* CRUD.xcdatamodeld */,
 				97DF8E152A0D2D84007B9C0B /* Preview Content */,
 			);
@@ -136,6 +169,24 @@
 			productReference = 979160FE2A0E3B12001B71CA /* CRUDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9791611B2A0FCC91001B71CA /* CRUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979161242A0FCC91001B71CA /* Build configuration list for PBXNativeTarget "CRUDUITests" */;
+			buildPhases = (
+				979161182A0FCC91001B71CA /* Sources */,
+				979161192A0FCC91001B71CA /* Frameworks */,
+				9791611A2A0FCC91001B71CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979161232A0FCC91001B71CA /* PBXTargetDependency */,
+			);
+			name = CRUDUITests;
+			productName = CRUDUITests;
+			productReference = 9791611C2A0FCC91001B71CA /* CRUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		97DF8E0B2A0D2D82007B9C0B /* CRUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97DF8E1F2A0D2D84007B9C0B /* Build configuration list for PBXNativeTarget "CRUD" */;
@@ -167,6 +218,10 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 97DF8E0B2A0D2D82007B9C0B;
 					};
+					9791611B2A0FCC91001B71CA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 97DF8E0B2A0D2D82007B9C0B;
+					};
 					97DF8E0B2A0D2D82007B9C0B = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -187,12 +242,20 @@
 			targets = (
 				97DF8E0B2A0D2D82007B9C0B /* CRUD */,
 				979160FD2A0E3B12001B71CA /* CRUDTests */,
+				9791611B2A0FCC91001B71CA /* CRUDUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		979160FC2A0E3B12001B71CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9791611A2A0FCC91001B71CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,12 +282,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		979161182A0FCC91001B71CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979161212A0FCC91001B71CA /* CRUDUITestsLaunchTests.swift in Sources */,
+				9791611F2A0FCC91001B71CA /* CRUDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97DF8E082A0D2D82007B9C0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				979160F52A0E2EB9001B71CA /* AddMemoView.swift in Sources */,
 				979160F22A0DFDA9001B71CA /* Memo+CoreDataClass.swift in Sources */,
+				979161152A0FC675001B71CA /* Utils.swift in Sources */,
 				97DF8E192A0D2D84007B9C0B /* Persistence.swift in Sources */,
 				97DF8E122A0D2D82007B9C0B /* ContentView.swift in Sources */,
 				979160F72A0E3041001B71CA /* EditMemoView.swift in Sources */,
@@ -241,6 +314,11 @@
 			isa = PBXTargetDependency;
 			target = 97DF8E0B2A0D2D82007B9C0B /* CRUD */;
 			targetProxy = 979161022A0E3B12001B71CA /* PBXContainerItemProxy */;
+		};
+		979161232A0FCC91001B71CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97DF8E0B2A0D2D82007B9C0B /* CRUD */;
+			targetProxy = 979161222A0FCC91001B71CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -278,6 +356,40 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CRUD";
+			};
+			name = Release;
+		};
+		979161252A0FCC91001B71CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN2X98FR5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dentaku.com.CRUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRUD;
+			};
+			name = Debug;
+		};
+		979161262A0FCC91001B71CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GN2X98FR5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dentaku.com.CRUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRUD;
 			};
 			name = Release;
 		};
@@ -461,6 +573,15 @@
 			buildConfigurations = (
 				979161052A0E3B12001B71CA /* Debug */,
 				979161062A0E3B12001B71CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979161242A0FCC91001B71CA /* Build configuration list for PBXNativeTarget "CRUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979161252A0FCC91001B71CA /* Debug */,
+				979161262A0FCC91001B71CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

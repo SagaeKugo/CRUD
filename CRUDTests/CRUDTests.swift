@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import CRUD
 
 final class CRUDTests: XCTestCase {
 
@@ -30,6 +31,29 @@ final class CRUDTests: XCTestCase {
         measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    // 足し算
+    func testCulcAdd() throws {
+        XCTAssertEqual(CRUD.calcAdd(a: 27 , b: 2) , 29)
+        XCTAssertEqual(CRUD.calcAdd(a: 2 , b: 2) , 4)
+    }
+    
+    // 引き算
+    func testCulcSub() throws {
+        XCTAssertEqual(CRUD.calcSub(a: 27 , b: 2) , 25)
+        XCTAssertEqual(CRUD.calcSub(a: 2 , b: 22) , -20)
+    }
+    
+    // 割り算
+    func testCulcDiv() throws {
+        XCTAssertEqual(CRUD.calcDiv(a: 27 , b: 2) , 13)
+        XCTAssertEqual(CRUD.calcDiv(a: 2 , b: 2) , 1)
+    }
+    
+    // 掛け算
+    func testCulcMulti()throws {
+        XCTAssertEqual(CRUD.calcMulti(a: 27 , b: 2) , 54)
+        XCTAssertEqual(CRUD.calcMulti(a: 3 , b: 2) , 6)
     }
 
 }
